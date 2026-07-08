@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+server/uploads/
+server/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Flutter plugins files
+.flutter-plugins
+.flutter-plugins-dependencies
+.dependency-info
+graphics_translation.json
+
+# Web generated files
+web/flutter_service_worker.js
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
