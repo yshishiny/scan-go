@@ -1,0 +1,8 @@
+# Netlify configuration for Scan-Go Flutter Web Client
+
+# Configure redirects for Single Page Applications (SPA)
+# This ensures that refreshing the page or using direct routing doesn't trigger a 404
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
